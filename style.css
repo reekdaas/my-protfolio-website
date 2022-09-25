@@ -110,6 +110,7 @@ body {
 /* footer  */
 
 footer {
+  text-align: center;
   margin-top: 1.5rem;
   background-color: var(--secondary-color);
   border-radius: 10px 10px 0 0;
@@ -121,13 +122,13 @@ footer {
 }
 
 .list-item-inline {
-  text-align: center;
+  /* text-align: center; */
   display: inline;
   padding: 1rem;
 }
 
 .list-item-inline .link {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   list-style-type: none;
   text-decoration: none;
 }
