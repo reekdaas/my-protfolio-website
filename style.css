@@ -44,7 +44,8 @@ body {
   border-radius: 0.5rem;
 }
 .navbar-list-item .link-active {
-  font-weight: 600;
+  background-color: var(--bg-color);
+  padding: 0.5rem;
 }
 
 /* lists */
@@ -64,26 +65,32 @@ body {
   background-color: var(--secondary-color);
   border-radius: 0rem 0rem 0.5rem 0.5rem;
   padding: 1rem;
-  max-height: 15vh;
+  max-height: 17vh;
 }
 
 .navbar .unordered {
   list-style-type: none;
   text-align: right;
-  margin-bottom: 1rem;
+  display: inline;
+  padding: 0rem 3rem 2rem 0rem;
+  margin-left: 40rem;
 }
 
 .navbar .unordered .navbar-list-item {
   display: inline;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .navbar .unordered .unorderd-nav-link {
   text-decoration: none;
   color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 600;
 }
-.navbar h2 {
-  font-size: 1.75rem;
+.navbar h1 {
+  font-size: 3rem;
+  margin-left: 3rem;
+  display: inline;
 }
 
 /* Header */
