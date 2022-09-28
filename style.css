@@ -108,6 +108,8 @@ body {
 .hero-heading {
   margin-top: 0.75rem;
   text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .hero-heading .hero-heading-highlight-section {
